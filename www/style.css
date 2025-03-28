@@ -1,0 +1,75 @@
+/* Định dạng chung */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Khung chứa nội dung */
+.container {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    width: 90%;
+    max-width: 400px;
+}
+
+/* Tiêu đề */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Hiển thị thời gian */
+#timeDisplay {
+    font-size: 20px;
+    margin: 15px 0;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+}
+
+/* Nút bấm */
+.btn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Màu sắc cho từng nút */
+.show-time {
+    background: #34d399;
+}
+
+.share-time {
+    background: #fbbf24;
+}
+
+.capture-screen {
+    background: #f87171;
+}
+
+/* Hiệu ứng hover */
+.btn:hover {
+    opacity: 0.8;
+}
+
+/* Hiệu ứng khi nhấn */
+.btn:active {
+    transform: scale(0.95);
+}
